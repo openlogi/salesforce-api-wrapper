@@ -1,8 +1,8 @@
 <?php
 
-namespace Napp\Salesforce\TokenStore;
+namespace OPENLOGI\Salesforce\TokenStore;
 
-use Napp\Salesforce\AccessToken;
+use OPENLOGI\Salesforce\AccessToken;
 
 interface StoreInterface
 {
