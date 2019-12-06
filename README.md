@@ -9,6 +9,9 @@ A simple library for interacting with the Salesforce REST API.
 
 Methods for setting up a connection, requesting an access token, refreshing the access token, saving the access token, and making calls against the API.
 
+## Origin
+- Original version: [crunch-accounting/salesforce-api - Packagist](https://packagist.org/packages/crunch-accounting/salesforce-api)
+- Forked version: [napp/salesforce-api - Packagist](https://packagist.org/packages/napp/salesforce-api)
 
 ## Getting started
 
