@@ -1,10 +1,10 @@
 <?php
 
-namespace Napp\Salesforce;
+namespace OPENLOGI\Salesforce;
 
 /**
  * Interface ClientConfigInterface
- * @package Napp\Salesforce
+ * @package OPENLOGI\Salesforce
  */
 interface ClientConfigInterface
 {

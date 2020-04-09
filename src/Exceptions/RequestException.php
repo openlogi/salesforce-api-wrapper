@@ -1,6 +1,6 @@
 <?php
 
-namespace Napp\Salesforce\Exceptions;
+namespace OPENLOGI\Salesforce\Exceptions;
 
 use Throwable;
 

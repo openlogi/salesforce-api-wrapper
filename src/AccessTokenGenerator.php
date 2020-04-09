@@ -1,6 +1,6 @@
 <?php
 
-namespace Napp\Salesforce;
+namespace OPENLOGI\Salesforce;
 
 use Carbon\Carbon;
 

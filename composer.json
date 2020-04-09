@@ -1,13 +1,13 @@
 {
-  "name": "napp/salesforce-api",
+  "name": "openlogi/salesforce-api",
   "description": "A library for interacting with the Salesforce REST API and managing the OAuth flow",
   "keywords": ["salesforce", "rest", "api", "oauth2"],
-  "homepage": "https://github.com/napp/salesforce-api-wrapper",
+  "homepage": "https://github.com/openlogi/salesforce-api-wrapper",
   "license": "MIT",
   "authors": [
     {
-      "name": "Michael Lundbøl",
-      "email": "ml@napp.dk"
+      "name": "OPENLOGI",
+      "homepage": "https://www.openlogi.com/"
     }
   ],
   "require": {
@@ -23,14 +23,18 @@
     "wearejust/grumphp-extra-tasks": "^2.2",
     "friendsofphp/php-cs-fixer": "^2.14"
   },
+  "replace": {
+    "crunch-accounting/salesforce-api": "*",
+    "napp/salesforce-api": "^1.0.6"
+  },
   "autoload": {
     "psr-4": {
-      "Napp\\Salesforce\\": "src/"
+      "OPENLOGI\\Salesforce\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Napp\\Salesforce\\Tests\\": "tests/"
+      "OPENLOGI\\Salesforce\\Tests\\": "tests/"
     },
     "files": [
       "tests/bootstrap.php"
